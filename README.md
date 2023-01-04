@@ -1,6 +1,6 @@
 # CoinCatalog
 
-## Catalog of precious coins
+## Catalog of coins
 
 This simple site is a catalog of precious coins. Based on ReactJS (Frontend), NodeJS (Backend) and MySQL (DB). It is the final project for the Algorithmics course for a 4th year student.
 
