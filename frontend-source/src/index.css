@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+html{
+  min-width: 380px;
+}
+
+.container{
+  padding: 3.25rem;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #F5F5F5;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #833AE0;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 620px){
+  html{
+    font-size: 10px
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 768px){
+  html{
+    font-size: 12px
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  html{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  html{
+    font-size: 16px;
+  }
+}
