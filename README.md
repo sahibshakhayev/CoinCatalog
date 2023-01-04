@@ -23,7 +23,10 @@ The project consists of two parts. Frontend on React and Backend on NodeJS. Node
 
 An example shows how to run a project on a Windows laptop.
 
-1. Prepare Database
+### 1. Prepare Database 
+
+<br>
+
 Use MySQL Workdench, phpMyAdmin or another way to import "coin_catalog.sql" from "sql" folder.
 
 Make Query "ALTER USER 'database_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';"
@@ -32,7 +35,10 @@ Make sure that the database_user has permissions to perform any actions with the
 
 Edit the db.js file in the "service/server" folder by changing mysql.createPool. Change to your connection details.
 
-2. Start server \
+### 2. Start server 
+
+<br>
+
 Run VSCode by opening the "CoinCatalog" folder and create Terminal.
 
 Run commands:
@@ -47,11 +53,13 @@ If everything is fine, you will see the following message:
 
 Open in browser: http://localhost:3001/ and you will see the page. \
 
-3. Edit Frontend (if want)
+### 3. Edit Frontend (if want)
+
+<br>
 
 Run VSCode by opening the "CoinCatalog" folder and create Terminal. \
 
-Run commands: \
+Run commands: 
 
 ### `cd frontend-source`
 
