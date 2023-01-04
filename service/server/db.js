@@ -18,8 +18,8 @@ class Db {
     connect() {
         return mysql.createPool({
             host: 'localhost',
-            user: 'root',
-            password: '{Q7sNn/kKu,{QyQz',
+            user: 'database_user',
+            password: 'Password',
             database: 'coin_catalog'
         });
     }
