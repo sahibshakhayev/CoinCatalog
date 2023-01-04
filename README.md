@@ -32,7 +32,7 @@ Make sure that the database_user has permissions to perform any actions with the
 
 Edit the db.js file in the "service/server" folder by changing mysql.createPool. Change to your connection details.
 
-2. Start server
+2. Start server \
 Run VSCode by opening the "CoinCatalog" folder and create Terminal.
 
 Run commands:
@@ -45,13 +45,13 @@ If everything is fine, you will see the following message:
 
 ### `Server is running on port 3001`
 
-Open in browser: http://localhost:3001/ and you will see the page.
+Open in browser: http://localhost:3001/ and you will see the page. \
 
 3. Edit Frontend (if want)
 
-Run VSCode by opening the "CoinCatalog" folder and create Terminal.
+Run VSCode by opening the "CoinCatalog" folder and create Terminal. \
 
-Run commands:
+Run commands: \
 
 ### `cd frontend-source`
 
